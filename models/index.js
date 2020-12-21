@@ -1,11 +1,7 @@
-const User = require('./User');
+const User = require('./user');
+const Post = require('./post');
+const Comment = require('./comment');
 
-module.exports = { User };
-
-
-const User = require('./User');
-const Post = require('./Post');
-const Comment = require('./Comment');
 
 // create associations
 User.hasMany(Post, {
