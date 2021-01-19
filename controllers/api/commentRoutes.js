@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
       .then(commentData => res.json(commentData))
       .catch(err => {
          console.log(err);
-         res.status(400).json(err);
+         res.status(500).json(err);
       });
 });
 
