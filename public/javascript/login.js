@@ -22,6 +22,9 @@ async function loginFormHandler(event) {
     }
   }
   
+
+  //signing up as a new user
+
   async function signupFormHandler(event) {
     event.preventDefault();
   
