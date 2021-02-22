@@ -1,4 +1,3 @@
-  
 <section>
    <h2>Create A New Post</h2>
 
@@ -22,7 +21,7 @@
       <ol>
       {{#each posts as |post|}}
          <li>
-            {{> post-info post }}
+            {{> postdata post }}
             <button class="edit">
                <a href="/dashboard/edit/{{post.id}}">Edit Post</a>
             </button>
